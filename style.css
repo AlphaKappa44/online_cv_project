@@ -1,7 +1,10 @@
 body
 {
   background-image: url("image/—Pngtree—torn\ paper\ edges\ ripped\ paper_5335443.png");
-  background-attachment: fixed; /*back image fixée */
+  background-attachment: fixed ; /*back image fixée */
+  margin: 10px;
+  /*border: solid rgb(41, 132, 144) 2px;
+  border-radius: none;*/
   font-size: 1em;
   font-family: 'Lucida Sans Unicode', 'roboto', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans';
   text-align: left;
@@ -11,49 +14,158 @@ body
 #photo /* Faire flotter une image dans un texte */
 {
     float: right;
+    margin-right: 200px;
+    margin-top: 100px;
+    padding: 20px;
+    border: solid rgb(41, 132, 144) 2px;
+    border-radius: 10px;
+    background-color: rgb(180, 180, 180);
+}
+#contact /* Faire flotter un paragraphe */
+{
+    float: left;
+    margin-left: 200px;
+    margin-top: 100px;
+    padding: 20px;
+    border: solid rgb(41, 132, 144) 2px;
+    border-radius: 10px;
+    background-color: rgb(180, 180, 180);
 }
 .under /* Arrêter de faire flotter le texte ("à propos de moi") */
 {
     clear: both;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+a:hover /* Apparence au survol des liens */
+{
+   text-decoration: underline;
+   color: rgb(102, 158, 102);
+}
+
+a:active /* Quand le visiteur clique sur le lien */
+{
+    background-color: #b16dd8;
+}
+
+a:focus /* Quand le visiteur sélectionne le lien */
+{
+    background-color: #84d5b2de;
+}
+
+a:visited /* Quand le visiteur a déjà vu la page concernée */
+{
+    color: rgb(113, 5, 237); /* Appliquer une couleur grise */
+}
+
+section
+{
+    background-color: rgb(215, 215, 215) ;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    border: solid rgb(41, 132, 144) 2px;
+    border-radius: 10px;
+    /*box-shadow: 6px black;*/
+}
+
+.communication, .management
+{
+    background-color: rgb(215, 215, 215) ;
 }
 
 h1
 {
-    color: rgb(0, 200, 255);
-    font-size: 1.8em;
-    text-decoration: 'blink';
+    color: rgb(255, 255, 255);
+    background-color: rgb(180, 180, 180);
+    font-size: 3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 5px rgb(41, 132, 144) solid;
+    border-radius: 10px;
     text-align: center;
+    margin: 50px;
+    padding: 50px;
 }
 
 h2
 {
-    color: rgb(0, 220, 255);
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
     font-size: 1.6em;
     font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Open Sans', 'sans-serif';
     text-decoration: underline;
     text-align: center;
+    border: 3pxrgb(41, 132, 144) double;
+    border-radius: 10px;
+    padding: 20px;
 }
 
 h3
 {
-    color: rgb(0, 240, 255);
+    color: rgb(255, 255, 255);
     font-size: 1.4em;
     font-family: 'Ubuntu', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen', 'Cantarell', 'Open Sans', 'sans-serif';
     font-style: italic;
-    text-align: center;
+    text-align: left;
+    margin-left 250px;
 }
 
 h4
 {
-    color: rgb(0, 255, 255);
+    color: rgb(255, 255, 255);
     font-size: 1.2em; 
-    font-family: inherit;
+    font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Open Sans', 'sans-serif';
     text-decoration: underline;
-    text-align: center;
+    text-align: left;
+    margin-left 250px;
 }
 
+ul
+{
+  list-style: none;
+  background-color: rgb(180, 180, 180);
+  margin: 20px;
+  padding-left:50px;
+  padding-right:50px;
+  padding: 20px;
+  border: solid rgb(41, 132, 144) 2px;
+  border-radius: 10px;
+  /*display:none;*/
+}
+#pylone_type
+{
+    background-color: rgb(215, 215, 215);
+}
+
+.abilities
+{
+background-color: rgb(180, 180, 180);
+border-radius: 10px;
+margin: 10px;
+padding: 20px;
+border: solid rgb(41, 132, 144) 2px;
+border-radius: 10px;
+}
 p
 {
-    color: greenyellow;
+    background-color: rgb(180, 180, 180);
+    margin: 20px;
+    padding-left:20px;
+    padding-right:20px;
+    padding: 20px;
+    border: solid rgb(41, 132, 144) 2px;
+    border-radius: 10px;
+}
+
+header, nav, footer
+{
+    background-color: rgb(180, 180, 180;
     font-size: 1em; 
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    border: solid rgb(41, 132, 144) 2px;
+    border-radius: 10px;
+    font-family: 'Ubuntu', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen', 'Cantarell', 'Open Sans', 'sans-serif';t;
 }
