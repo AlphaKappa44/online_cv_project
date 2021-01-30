@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+   
+
+}
+
+
+main {
+    border: solid #009FC5 5px;
+    border-top: none;
+    border-bottom: none;
+    width: auto;
+    margin: 40px;
+    padding: 40px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: space-between;
+}
+
+nav {
+    background-color: #46dbff;
+    /*float: left;*/
+    color: rgb(0, 0, 0);
+    border: rgb(0, 0, 0) solid 3px;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+    align-content: stretch;
+    
+    text-align: center;
+}
+
+
+nav a {
+    display: block;
+    text-decoration: none;
+    background-color: white;
+    color:  rgb(5, 5, 5);
+    font-weight: bold;
+    text-decoration: none;
+    border: rgb(204, 202, 202) solid 3px;
+    border-radius: 50px;
+    margin: 15px;
+    margin-bottom: 10px;
+    padding: 10px 20px 10px 20px;
+}
+
+.nav-links,
+.title {
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+h1 {
+    height: 150px;
+    width: fit-content;
+    text-align: center;
+    font-size: 2rem;
+    padding: 40px;
+    background-color: #13d1ff;
+    border: rgb(204, 202, 202) solid 3px;
+    border-radius: 5px;
+}
+
+.profile-right {
+    width: fit-content;
+    height: 150px;
+    text-align: right;
+    padding: 40px;
+    background-color: #13d1ff;
+    border: rgb(204, 202, 202) solid 3px;
+    border-radius: 5px;
+}
+
+.div-2,
+.div-1 {
+    border-bottom: solid #009FC5 5px;
+    margin: 40px;
+    margin-bottom: auto;
+    margin-top: auto;
+
+    padding: 40px;
+    border-bottom: rgb(204, 202, 202) solid 3px;
+    border-radius: 5px;
+}
+
+img {
+    height: auto;
+    border-radius: 5px;
+    border: rgb(0, 0, 0) solid 3px;
+}
+

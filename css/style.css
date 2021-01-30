@@ -14,7 +14,7 @@ body {
     padding: 20px;
     border: solid rgb(41, 132, 144) 2px;
     border-radius: 10px;
-    background-color: rgb(180, 180, 180);
+    background-color: rgb(224, 110, 228);
 }
 
 #contact {
@@ -24,7 +24,7 @@ body {
     padding: 20px;
     border: solid rgb(41, 132, 144) 2px;
     border-radius: 10px;
-    background-color: rgb(180, 180, 180);
+    background-color: rgb(211, 174, 174);
 }
 
 .under {
@@ -55,7 +55,7 @@ section {
     border-radius: 10px;
     margin: 10px;
     padding: 20px;
-    border: solid rgb(41, 132, 144) 2px;
+    border: solid rgb(63, 72, 196) 2px;
     border-radius: 10px;
 }
 
@@ -66,7 +66,7 @@ section {
 
 h1 {
     color: rgb(255, 255, 255);
-    background-color: rgb(180, 180, 180);
+    background-color: rgb(224, 221, 24);
     font-size: 3em;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     border: 5px rgb(41, 132, 144) solid;
@@ -108,7 +108,7 @@ h4 {
 
 ul {
     list-style: none;
-    background-color: rgb(180, 180, 180);
+    background-color: rgb(218, 169, 124);
     margin: 20px;
     padding-left: 50px;
     padding-right: 50px;
